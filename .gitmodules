@@ -1,0 +1,9 @@
+[submodule "SongLoader"]
+	path = SongLoader
+	url = https://github.com/useredsa/SongLoader
+[submodule "UiButton"]
+	path = UiButton
+	url = https://github.com/useredsa/UiButton
+[submodule "NappMusic"]
+	path = NappMusic
+	url = https://github.com/Rvb0rob0t/NappMusic
