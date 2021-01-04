@@ -28,7 +28,7 @@ Therefore, we can't include it as source code.)
 From the NappMusic directory type:
 
 ```sh
-mvn install:install-file -Dfile=lib/DriverPersistencia.jar -DgroupId=um.tds -DartifactId=DriverPersistencia -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=H2/DriverPersistencia.jar -DgroupId=um.tds -DartifactId=DriverPersistencia -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true
 ```
 
 * Create a jar file of NappMusic with `mvn compile`.
