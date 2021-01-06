@@ -42,8 +42,12 @@ mvn install:install-file -Dfile=H2/DriverPersistencia.jar -DgroupId=um.tds -Dart
 * You need to run the database under [H2] before trying to run the application.
 
 ```sh
-jva -jar H2/ServidorPersistencia.jar
+java -jar H2/ServidorPersistencia.jar
 ```
 
-* After you compile NappMusic with `mvn compile package`,
-you can run it `mvn exec:java -Dexec.mainClass=um.tds.nappmusic.gui.LoginWindow`.
+* After you compile NappMusic with `mvn compile`,
+you can run it `mvn exec:java -Dexec.mainClass=um.tds.nappmusic.app.App`.
+
+* You can also create an executable jar following the [nappmusic's README].
+
+[nappmusic's README]: NappMusic/README.md
